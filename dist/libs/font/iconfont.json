@@ -1,0 +1,58 @@
+{
+  "id": "1902953",
+  "name": "深度数据官网",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "545992",
+      "name": "对号",
+      "font_class": "icon",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "15007448",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "11639681",
+      "name": "信封",
+      "font_class": "xinfeng",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "11714740",
+      "name": "电  话",
+      "font_class": "dianhua",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "3544196",
+      "name": "下箭头",
+      "font_class": "ico_open",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "12736666",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "12736667",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    }
+  ]
+}

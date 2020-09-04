@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>数据分析 - 深度数据</title>
+    
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./libs/swiper/swiper.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./libs/font/iconfont.css">
+
+</head>
+
+<body>
+    <!-- 登录弹框 -->
+    <div class="Login">
+        <div class="Login-box clearfix">
+            <img class="pop-logo" src="./images/logo-b.png" alt="">
+            <div class="Login-left">
+
+            </div>
+            <div class="Login-right">
+                <h5>登陆/注册到深度数据</h5>
+                <div class="Login-item">
+                    <span>中国大陆&nbsp;&nbsp;(86)</span>
+                    <input type="text" class="login-phone" placeholder="手机号">
+                    <div class="phone-err">请输入正确的11位手机号码</div>
+                </div>
+                <div class="Login-item">
+                    <input type="text" class="login-code" placeholder="验证码">
+                    <button class="get-code">获取验证码</button>
+                    <div class="code-err">请输入正确的6位数验证码</div>
+                </div>
+
+                <!-- <div class="check-wrap">
+                <div class="checkbox active">
+                    <i class="iconfont icon-icon"></i>
+                </div>
+                <span>保存密码</span>
+            </div> -->
+
+                <div class="Login-in">
+                    开始体验demo
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--header -->
+    <div class="header">
+        <div class="header-wrap">
+            <div class="logo">
+                <a href="">
+                    <img src="./images/logo-w.png" alt="">
+                </a>
+            </div>
+            <ul class="nav">
+                <li><a href="index.html" class="link">首页</a></li>
+                <li>
+                    <a class="link">产品 <i class="iconfont icon-ico_open navi"></i> </a>
+                    <div class="item">
+                        <a href="dataanalysis.html">数据分析</a>
+                        <a href="recommendation.html">智能推荐</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="link" href="onlineretailers.html">解决方案</a>
+                </li>
+                <li>
+                    <a class="link">用户中心 <i class="iconfont icon-ico_open navi"></i></a>
+                    <div class="item">
+                        <a href="">使用手册</a>
+                        <a href="">技术文档</a>
+                        <a href="">数据博客</a>
+                    </div>
+                </li>
+                <li><a href="" class="link">关于我们</a></li>
+            </ul>
+            <div class="nav-phone-box">
+                <span class="nav-switch"><i class="icon icon-menu-open"></i></span>
+                <ul class="nav-phone">
+                    <li><a class="on" href="index.html">首页</a></li>
+                    <li><a>产品<i class="iconfont icon-ico_open navi"></i> </a>
+                        <ul>
+                            <li><a href="./dataanalysis.html">数据分析</a></li>
+                            <li><a href="./recommendation.html">智能推荐</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./onlineretailers.html">解决方案</a></li>
+                    <li><a href="">用户中心<i class="iconfont icon-ico_open navi"></i></a>
+                        <ul>
+                            <li><a href="">使用手册</a></li>
+                            <li><a href="">技术文档</a></li>
+                            <li><a href="">数据博客</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">关于我们</a></li>
+                </ul>
+            </div>
+            <div class="btn">
+                <a href="" onclick="return false">体验DEMO</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="banner data-banner">
+        <div class="banner-wrap pc-wrap">
+            <h4 class="title">助力企业向数据驱动转型</h4>
+            <p class="desc">完善的数据分析服务，帮助企业完成数据驱动转型，推动业务增长</p>
+            <a class="btn">数据分析DEMO</a>
+        </div>
+    </div>
+
+    <!-- 数据说明图 -->
+    <div class="data-intro">
+        <h3>深度数据产品说明图</h3>
+        <div class="line">
+            <div class="arrow">
+                <span class="arrow-bg"></span>
+                <span class="arrow-bg"></span>
+                <span class="arrow-bg"></span>
+                <span class="arrow-bg"></span>
+
+                <span class="arrow-bg fours"></span>
+                <span class="arrow-bg"></span>
+                <span class="arrow-bg"></span>
+                <span class="arrow-bg"></span>
+
+                <span class="arrow-bg fours"></span>
+                <span class="arrow-bg"></span>
+                <span class="arrow-bg"></span>
+                <span class="arrow-bg"></span>
+
+                <span class="arrow-bg fours"></span>
+                <span class="arrow-bg"></span>
+                <span class="arrow-bg"></span>
+                <span class="arrow-bg"></span>
+            </div>
+            <div class="line-wrap clearfix">
+                <div class="item active">
+                    <div class="img item1"></div>
+                    <p>数据采集</p>
+                </div>
+                <div class="item">
+                    <div class="img item2"></div>
+                    <p>数据传输</p>
+                </div>
+                <div class="item">
+                    <div class="img item3"></div>
+                    <p>数据建模存储</p>
+                </div>
+                <div class="item">
+                    <div class="img item4"></div>
+                    <p>数据查询</p>
+                </div>
+                <div class="item">
+                    <div class="img item5"></div>
+                    <p>数据可视化</p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="img-tree pc-wrap">
+            <div class="img-wrap">
+                <img class="timg1" width="380px" src="./images/p1.png" alt="">
+                <img class="timg2" width="400px" src="./images/p2.png" alt="">
+                <img class="timg3" width="420px" src="./images/p3.png" alt="">
+                <img class="timg4" width="440px" src="./images/p4.png" alt="">
+                <img class="timg5" width="460px" src="./images/p5.png" alt="">
+
+                <div class="desc data1">
+                    <h4>数据可视化</h4>
+                    <p>同行业最完整的数据分析模块</p>
+                    <p>一个产品 满足所有工种全部数据需求</p>
+                </div>
+
+                <div class="desc data2">
+                    <h4>数据建模存储</h4>
+                    <p>同行业最完整的数据分析模块</p>
+                    <p>一个产品 满足所有工种全部数据需求</p>
+                </div>
+
+                <div class="desc data3">
+                    <h4>数据采集</h4>
+                    <p>同行业最完整的数据分析模块</p>
+                    <p>一个产品 满足所有工种全部数据需求</p>
+                </div>
+
+                <div class="desc data4">
+                    <h4>数据查询</h4>
+                    <p>同行业最完整的数据分析模块</p>
+                    <p>一个产品 满足所有工种全部数据需求</p>
+                </div>
+
+                <div class="desc data5">
+                    <h4>数据传输</h4>
+                    <p>同行业最完整的数据分析模块</p>
+                    <p>一个产品 满足所有工种全部数据需求</p>
+                </div>
+
+
+                <img class="lines line1" src="./images/line.png" alt="">
+                <img class="lines line2" src="./images/line.png" alt="">
+                <img class="lines line3" src="./images/line.png" alt="">
+                <img class="lines line4" src="./images/liner.png" alt="">
+                <img class="lines line5" src="./images/liner.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- data-swiper -->
+    <div class="data-swiper">
+        <h3>12种数据分析工具，满足全场景下的业务需求</h3>
+        <div class="pc-wrap">
+            <div class="swiper-container analysis-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="imgs" src="./images/sw1.png" alt="">
+                        <div class="box">
+                            <div class="img">
+                                <img src="./images/s-icon01.png" alt="">
+                            </div>
+                            <dl>
+                                <dt>事件分析</dt>
+                                <dd>针对事件的数据分析，提供多样化的筛选和查看功能</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="imgs" src="./images/sw2.png" alt="">
+                        <div class="box">
+                            <div class="img">
+                                <img src="./images/s-icon02.png" alt="">
+                            </div>
+                            <dl>
+                                <dt>Session分析</dt>
+                                <dd>对自定义Session的个性化分析</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="imgs" src="./images/sw3.png" alt="">
+                        <div class="box">
+                            <div class="img">
+                                <img src="./images/s-icon03.png" alt="">
+                            </div>
+                            <dl>
+                                <dt>漏斗分析</dt>
+                                <dd>分析多个事件间的转化情况</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="imgs" src="./images/sw4.png" alt="">
+                        <div class="box">
+                            <div class="img">
+                                <img src="./images/s-icon04.png" alt="">
+                            </div>
+                            <dl>
+                                <dt>留存分析</dt>
+                                <dd>分析用户在各个阶段内的留存/流失情况</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="imgs" src="./images/sw5.png" alt="">
+                        <div class="box">
+                            <div class="img">
+                                <img src="./images/s-icon05.png" alt="">
+                            </div>
+                            <dl>
+                                <dt>分布分析</dt>
+                                <dd>分析用户在一段时间内的操作频次和数量的分布情况</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="imgs" src="./images/sw6.png" alt="">
+                        <div class="box">
+                            <div class="img">
+                                <img src="./images/s-icon06.png" alt="">
+                            </div>
+                            <dl>
+                                <dt>路径分析</dt>
+                                <dd>分析用户行为发生路径</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="imgs" src="./images/sw7.png" alt="">
+                        <div class="box">
+                            <div class="img">
+                                <img src="./images/s-icon07.png" alt="">
+                            </div>
+                            <dl>
+                                <dt>间隔分析</dt>
+                                <dd>分析两事件间的间隔时长及分布情况</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="imgs" src="./images/sw8.png" alt="">
+                        <div class="box">
+                            <div class="img">
+                                <img src="./images/s-icon08.png" alt="">
+                            </div>
+                            <dl>
+                                <dt>归因分析</dt>
+                                <dd>追本溯源分析运营位与目标转化的贡献度关系</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="imgs" src="./images/sw9.png" alt="">
+                        <div class="box">
+                            <div class="img">
+                                <img src="./images/s-icon09.png" alt="">
+                            </div>
+                            <dl>
+                                <dt>渠道分析</dt>
+                                <dd>分析各渠道广告流量转化情况</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="imgs" src="./images/sw10.png" alt="">
+                        <div class="box">
+                            <div class="img">
+                                <img src="./images/s-icon10.png" alt="">
+                            </div>
+                            <dl>
+                                <dt>用户分析</dt>
+                                <dd>快速分析用户及用户群的属性特征</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="imgs" src="./images/sw11.png" alt="">
+                        <div class="box">
+                            <div class="img">
+                                <img src="./images/s-icon11.png" alt="">
+                            </div>
+                            <dl>
+                                <dt>热力图分析</dt>
+                                <dd>分析Web与APP中元素点击与浏览深度的分布情况</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="imgs" src="./images/sw12.png" alt="">
+                        <div class="box">
+                            <div class="img">
+                                <img src="./images/s-icon12.png" alt="">
+                            </div>
+                            <dl>
+                                <dt>自定义查询</dt>
+                                <dd>支持对全量数据进行SQL查询，数据可视化</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"><i class="iconfont icon-fanhui"></i></div>
+                <div class="swiper-button-next"><i class="iconfont icon-youjiantou"></i></div>
+
+                <div class="swiper-pagination analysis-swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- <p class="more">
+            <a href="">了解更多深度数据产品功能 <i class="iconfont icon-youjiantou"></i></a>
+        </p> -->
+    </div>
+
+    <!-- 分析优势 -->
+    <div class="analysis">
+        <h2>深沉次分析+简易上手，满足你对数据分析的一切想象</h2>
+        <div class="pc-wrap">
+            <ul class="clearfix">
+                <li>
+                    <div class="img">
+                        <img src="./images/dm1.png" alt="">
+                    </div>
+                    <h3>0代码</h3>
+                    <p>无需代码，人人都能轻松上手 让研发从导数据中解脱出来</p>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="./images/dm2.png" alt="">
+                    </div>
+                    <h3>多维度分析</h3>
+                    <p>灵活度同sql，支持任意维度的下钻 满足各种复杂的数据分析需求</p>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="./images/dm3.png" alt="">
+                    </div>
+                    <h3>12大分析模块</h3>
+                    <p>同行业最完整的数据分析模块 一个产品 满足所有工种全部数据需求</p>
+                </li>
+            </ul>
+            <ul class="clearfix">
+                <li>
+                    <div class="img">
+                        <img src="./images/dm4.png" alt="">
+                    </div>
+                    <h3>查询速度快</h3>
+                    <p>全站秒级查询，减少数据等待时间 支持自定义模糊查询，完美解决超大数据查询痛点</p>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="./images/dm5.png" alt="">
+                    </div>
+                    <h3>预置数据看板</h3>
+                    <p>根据不同行业 预置对应常见的数据看板, 接入后无需任何操作，既能满足大部分数据需求</p>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="./images/dm6.png" alt="">
+                    </div>
+                    <h3>预置角色权限</h3>
+                    <p>系统预置常见用户角色 轻松分配各工种权限，权限分配更轻松</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 产品 -->
+    <div class="product">
+        <img class="circlepp pp2" src="./images/pp2.png" alt="">
+        <img class="circlepp pp3" src="./images/pp3.png" alt="">
+        <img class="circlepp pp4" src="./images/pp4.png" alt="">
+        <img class="circlepp pp5" src="./images/pp5.png" alt="">
+        <h4>了解完整的数据产品</h4>
+        <div class="product-btn">
+            <a class="active single-btn" href="">立即试用</a>
+        </div>
+        <div class="line pc-wrap">
+
+        </div>
+    </div>
+
+
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="pc-wrap footer-wrap">
+            <div class="footer-logo">
+                <a href="">
+                    <img src="./images/logo-w.png" alt="">
+                </a>
+            </div>
+            <div class="footer-list">
+                <span>产品</span>
+                <a href="">数据分析</a>
+                <a href="">智能推荐</a>
+                <a href="">智能运营</a>
+            </div>
+
+            <div class="footer-list">
+                <span>解决方案</span>
+                <a href="">电商解决方案</a>
+            </div>
+            <div class="footer-list">
+                <span>用户中心</span>
+                <a href="">使用手册</a>
+                <a href="">技术文档</a>
+                <a href="">运营中心</a>
+            </div>
+
+            <div class="footer-list footer-addr">
+                <span>联系方式</span>
+                <a><i class="iconfont icon-dingwei"></i>成都市高新区天府新谷10号楼806</a>
+                <a><i class="iconfont icon-xinfeng"></i>admin@sndo.com</a>
+                <a><i class="iconfont icon-dianhua"></i>028-85239000</a>
+            </div>
+            <div class="footer-qr">
+                <img src="https://www.sndo.com/img/wechat-code.png" alt="">
+            </div>
+        </div>
+        <div class="footer-copyright">
+            COPYRIGHT (C) 2015. ALL RIGHTS RESERVED 蜀ICP备17027010号-1
+        </div>
+    </div>
+
+    <div class="phone-footer">
+        <div class="hone-footer-wrap clearfix">
+            <div class="left">
+                <img src="./images/logo.png" alt="">
+                <a><i class="iconfont icon-dingwei"></i>成都市高新区天府新谷10号楼806</a>
+                <a><i class="iconfont icon-xinfeng"></i>admin@sndo.com</a>
+                <a><i class="iconfont icon-dianhua"></i>028-85239000</a>
+
+            </div>
+            <div class="right">
+                <img src="https://www.sndo.com/img/wechat-code.png" alt="">
+            </div>
+        </div>
+        <div class="hone-footer-copy">COPYRIGHT (C) 2015 蜀ICP备17027010号-1</div>
+    </div>
+
+    <div class="to-top">
+        <img src="./images/to-top.png" alt="">
+    </div>
+
+    <script src="./libs/jquery/jquery.min.js"></script>
+    <script src="./libs/swiper/swiper.min.js"></script>
+    <script src="./js//common.js"></script>
+    <script src="./js/index.js"></script>
+    <script>
+        $(function() {
+            navActive(1, 1)
+            initDataSwiper()
+            arrowTimeDown()
+            resizeSwiper()
+            initTreeScroll()
+            defaultActibe()
+        })
+    </script>
+</body>
+
+</html>
